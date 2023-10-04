@@ -1,0 +1,116 @@
+body{
+    background-color: #AAF79E;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 100px;
+}
+
+.Cabeçalho{
+    background-image: url(capaeditada.png);
+    height: 500px;
+    background-size: cover;
+    padding-top: 1px;
+    background-attachment: fixed;
+}
+
+.div-Cabeçalho{
+    margin: 100px auto 0 auto;
+    width: 80%;
+    text-align: center;
+    /* color: white; */
+    margin-bottom: 100px;
+}
+
+.div-Cabeçalho h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px black;
+    margin-top: 150px;
+}
+
+.div-Cabeçalho a{
+    background-color: #71C23E;
+    color: #5A7549;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+     text-align: right;  
+}
+
+.div-Cabeçalho a:hover{
+    background-color: #5A7549;
+    color: #71C23E;
+}
+
+.Cabeçalho nav ul{
+    margin: 25px 40px 0;
+    text-align: right;
+}
+
+.Cabeçalho nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.Cabeçalho nav a{
+    background-color: #71C23E;
+    color: #5A7549;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.Cabeçalho nav a:hover{
+    background-color: #5A7549;
+    color: #71C23E;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main{
+    /*width: 90px;*/
+    margin: auto;
+    max-width: 2100px;
+}
+
+section{
+    padding: 120px;
+    margin-bottom: auto;
+    padding-bottom: 20px;
+}
+
+article{
+    background-color: white;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+article h2{
+    background-color: #5A7549;
+    text-align: center;
+    margin-top: 0;
+    color: white;
+}
+
+.rodapé{
+    background-color: #3f582f;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+.arvore{
+    width: 75px;
+    float: left;
+}
+
+.arvore:hover{
+    padding: 10px;
+}
